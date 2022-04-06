@@ -9,7 +9,7 @@ enum ZipListEncoding {
 }
 
 impl <T> ZipList<T> {
-    pub fn new(&self) -> self {
+    pub fn new(&self) -> Self {
         ZipList { encoding: ZipListEncoding::Nil, content: Vec::new()}
     }
 }
